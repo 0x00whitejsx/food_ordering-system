@@ -29,7 +29,7 @@ hbs.registerPartials('views/partials')
 
 
 
-mongoose.connect("mongodb://localhost/restorent",()=>{
+mongoose.connect("mongodb+srv://whitejsx:123@cluster0.u3zxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",()=>{
     console.log("Server connected..");
 })
 app.listen(5656,()=>{
